@@ -321,3 +321,41 @@ body {
   margin: 0;
   line-height: 1.4;
 }
+
+.news-section {
+  padding: 20px;
+}
+
+.news-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+.news-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.news-headline {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.news-description {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+  line-height: 1.4;
+}
