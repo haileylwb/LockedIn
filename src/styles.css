@@ -217,7 +217,7 @@ body {
 .block-right {
   grid-column: 3;
   grid-row: 1 / 3;
-  min-height: 616px;
+  height: fit-content;
 }
 
 /* TODO: Fix this later */
@@ -575,4 +575,8 @@ body {
 .linkedin-post {
   display: flex;
   flex-direction: column;
+}
+
+.hashtag {
+    color: #0b66c2;
 }
