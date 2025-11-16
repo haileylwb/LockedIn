@@ -207,9 +207,9 @@ body {
   grid-column: 1;
   grid-row: 1;
   min-height: 200px;
-  position: sticky;
+  /* position: sticky;
   top: 100px;
-  align-self: start;
+  align-self: start; */
 }
 
 .block-middle-left {
